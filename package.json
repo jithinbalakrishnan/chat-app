@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy-minor": "npm version patch --force -m \"version %s\""
+    "deploy-minor": "npm version patch --force -m \"version %s\" && build"
   },
   "eslintConfig": {
     "extends": [
