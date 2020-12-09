@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -15,12 +15,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run git-config && npm run deploy-minor && npm run publish-version && react-scripts build",
+    "build": "npm run git-config && npm run deploy-minor && npm run post-version && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy-minor": "npm version patch --force -m \"version %s\"",
     "git-config": "git config user.email \"jithinbalakrishnan00@gmail.com.com\" && git config user.name \"jithinbalakrishnan\"",
-    "publish-version": "git push --all"
+    "post-version": "git push && git push --tags && npm publish"
   },
   "eslintConfig": {
     "extends": [
