@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "deploy-minor": "npm version patch --force -m \"version %s\"",
     "git-config": "git config user.email \"jithinbalakrishnan00@gmail.com.com\" && git config user.name \"jithinbalakrishnan\"",
-    "post-version": "npm run git push"
+    "post-version": "git push --all"
   },
   "eslintConfig": {
     "extends": [
