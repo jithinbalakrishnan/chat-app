@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "deploy-minor": "npm version patch --force -m \"version %s\"",
     "git-config": "git config user.email \"jithinbalakrishnan00@gmail.com.com\" && git config user.name \"jithinbalakrishnan\"",
-    "post-version": "git push --all"
+    "post-version": "git push"
   },
   "eslintConfig": {
     "extends": [
