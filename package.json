@@ -1,7 +1,7 @@
 {
   "name": "my-app",
-  "version": "0.2.21",
-  "private": false,
+  "version": "0.2.22",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "deploy-minor": "npm version patch --force -m \"version %s\"",
     "git-config": "git config user.email \"jithinbalakrishnan00@gmail.com.com\" && git config user.name \"jithinbalakrishnan\" && git remote set-url origin https://github.com/jithinbalakrishnan/chat-app.git",
-    "post-version": "git push --tags && npm publish"
+    "post-version": "git push --tags"
   },
   "eslintConfig": {
     "extends": [
