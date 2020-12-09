@@ -20,7 +20,7 @@ const Profile = (props) => {
 
     return <React.Fragment>
         <Breadcrumb title= {"Set-up your profile"} />
-        <h2 >Version {process.env.REACT_APP_VERSION}</h2>
+        <h2 >Version Test {process.env.REACT_APP_VERSION}</h2>
         <Styles.Container>
             <Styles.Label htmlFor="fname">Name <sup>*</sup></Styles.Label>
             <Styles.Input type="text" id="fname" name="fname" placeholder="Enter your name" onChange={event => {
