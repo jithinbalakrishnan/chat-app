@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy-minor": "npm version patch --force -m \"version %s\"",
-    "git-config": "git config user.email \"jithinbalakrishnan00@gmail.com.com\" && git config user.name \"jithinbalakrishnan\" &&  https://{jithinbalakrishnan}:{knowledge@123}@github.com/{jithinbalakrishnan}/chat-app.git",
+    "git-config": "git config user.email \"jithinbalakrishnan00@gmail.com.com\" && git config user.name \"jithinbalakrishnan\" &&  https://jithinbalakrishnan:knowledge@123@github.com/jithinbalakrishnan/chat-app.git",
     "post-version": "git push origin main"
   },
   "eslintConfig": {
