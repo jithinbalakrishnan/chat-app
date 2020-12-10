@@ -13,6 +13,6 @@ export const ImageUploadButton = (props) => (
     <label htmlFor="image-upload">
     <Style.ImageUploadButton>
         <UploadIcon /> <Style.UploadText>Upload</Style.UploadText> 
-        <input type="file" id="image-upload"  accept="image/*" onChange = {props.onImageChange}/>
+        <input className = "image-input" type="file" id="image-upload"  accept="image/*" onChange = {props.onImageChange}/>
     </Style.ImageUploadButton></label>
 );
