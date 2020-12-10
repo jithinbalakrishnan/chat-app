@@ -12,7 +12,7 @@ const Profile = (props) => {
     const [img, setImg] = useState(null);
     const history = useHistory();
 
-    const hanldeSubmit = () => {
+    const handleSubmit = () => {
         props.handleUserData({name: name, imgSrc: (img || DisplayPhotoSvgs[0].id), authenticated: true});
         history.push("/chat-room");
     };
@@ -27,7 +27,7 @@ const Profile = (props) => {
                 setName(event.target.value)
             }}></Styles.Input>
             <ImageUploader hanldeImageChange={hanldeImageChange} />
-            <Styles.Button disabled={!name} onClick={hanldeSubmit}> Submit</Styles.Button>
+            <Styles.Button disabled={!name} onClick={handleSubmit}> Submit</Styles.Button>
 
         </Styles.Container>
     </React.Fragment>
