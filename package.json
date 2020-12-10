@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.2.35",
+  "version": "0.2.36",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -20,8 +20,8 @@
     "eject": "react-scripts eject",
     "deploy-minor": "npm version patch --force -m \"version %s\"",
     "git-config": "git config user.email \"jithinbalakrishnan00@gmail.com.com\" && git config user.name \"jithinbalakrishnan\" && git remote set-url origin https://jithinbalakrishnan:balujithin1994@github.com/jithinbalakrishnan/chat-app.git",
-    "post-version": "git log && git push origin version-update-test",
-    "pre-version": "git pull origin main && git checkout -b version-update-test"
+    "post-version": "git push -f origin main",
+    "pre-version": "git pull origin main"
   },
   "eslintConfig": {
     "extends": [
