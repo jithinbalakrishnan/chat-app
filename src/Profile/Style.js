@@ -13,6 +13,7 @@ const Container = styled.div`
     min-width: 400px;
     background: #b1b1b126;
     display: none;
+    text-align: center;
 `;
 
 const CommonStyle = css`
